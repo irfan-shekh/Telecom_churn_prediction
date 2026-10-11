@@ -1,0 +1,16 @@
+# Core Data Processing & Analysis
+numpy==2.2.4
+pandas==2.3.2
+scipy==1.15.2
+
+# Machine Learning & Modeling
+scikit-learn==1.7.2
+xgboost==3.4.1
+joblib==1.5.2
+
+# Visualization & EDA
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# Web Application Deployment
+streamlit==1.65.0
