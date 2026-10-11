@@ -1,0 +1,52 @@
+{
+  "model_name": "xgboost",
+  "trained_at": "2026-10-11T06:22:44.652198+00:00",
+  "training_samples": 5634,
+  "test_samples": 1409,
+  "metrics": {
+    "accuracy": 0.8041163946061036,
+    "precision_churn": 0.6550632911392406,
+    "recall_churn": 0.553475935828877,
+    "f1_churn": 0.6,
+    "roc_auc": 0.8431940892298948,
+    "confusion_matrix": {
+      "true_negatives": 926,
+      "false_positives": 109,
+      "false_negatives": 167,
+      "true_positives": 207
+    },
+    "test_samples": 1409
+  },
+  "numeric_features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "AvgMonthlyCharges",
+    "Charge_Drift",
+    "TotalServicesCount",
+    "Protection_Security_Score"
+  ],
+  "categorical_features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "AutoPayment",
+    "Is_Long_Term_Contract",
+    "Streaming_Only_Risk",
+    "Household_Type"
+  ],
+  "artifact_file": "churn_pipeline.joblib"
+}
